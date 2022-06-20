@@ -49,14 +49,13 @@ body {
 }
 
 .band-info-container2 {
-    height:3vw;
-    height: 42vw;
+    height: 42vh;
     max-width: 100%;
     flex-direction: row;
     position: relative;
     width: 64vw;
     /* padding-top: 1.3vw; */
-    top: 1vw;
+    top: 1vh;
     flex-grow: 1;
     font-size: 4vw;
     line-height: 110%;
@@ -71,22 +70,22 @@ input[type="submit"]
 }
 
 .header-h4 {
-    font-size: 4.4vw;
+    font-size: 4vw;
 }
 
 .header-h4-2 {
-    font-size: 4.4vw;
+    font-size: 4vw;
 }
 
 .button-header {
     background: rgb(45, 31, 57);
-    height: 42vw;
+    height: 54vh;
     max-width: 100%;
     flex-direction: row;
     position: relative;
-    width: 64vw;
+    /* width: 69vw; */
     /* padding-top: 1.3vw; */
-    top: 1vw;
+    top: 1vh;
     flex-grow: 1;
     font-size: 4vw;
     line-height: 110%;
@@ -96,13 +95,12 @@ input[type="submit"]
 
 .band-info-container-bottom {
     background: rgb(45, 31, 57);
-    height: 42vw;
+    height: 54vh;
     max-width: 100%;
     flex-direction: row;
     position: relative;
-    width: 64vw;
     /* padding-top: 1.3vw; */
-    top: 1vw;
+    top: 1vh;
     flex-grow: 1;
     font-size: 4vw;
     line-height: 110%;
@@ -113,37 +111,44 @@ input[type="submit"]
     
 
 .ticket-btn1 {
-    width: 20.5vw;
-    height: 9vw;
-    font-size: clamp(1vw, 2.2vw, 2.2vw);
-    font-weight: 400;
-    max-width: 100%;
+    width: 22vw;
+    height: 8.7vh;
+    font-size: clamp(16px, 2.3vw, 24px);
+    font-weight: 500;
+    min-height: 69px;
+    min-width: 100px;
+    max-width: 241px;
+    max-height: 500px;
     display: flex;
     border-radius: 11px;
     justify-content: space-between;
     align-items: center;
     text-align: center;
     box-sizing: border-box;
-    margin: 10px auto;
-    position: relative;
-    top: 2.2vw;
-    left: 1.9vw;
+    margin: 12px auto;
+    position: absolute;
+    top: 24.2vh;
+    left: 34.5vw;
+  
 }
 
 .ticket-btn2 {
-    width: 20.5vw;
-    height: 9vw;
-    font-size: clamp(1vw, 2.2vw, 2.2vw);
-    font-weight: 400;
-    max-width: 100%;
+    width: 22vw;
+    height: 8.7vh;
+    font-size: clamp(16px, 2.3vw, 24px);
+    font-weight: 500;
+    min-height: 69px;
+    min-width: 100px;
+    max-width: 241px;
+    max-height: 500px;
     display: flex;
     border-radius: 11px;
     justify-content: space-between;
     align-items: center;
     text-align: center;
     box-sizing: border-box;
-    margin: 10px auto;
-    position: relative;
+    margin: 12px auto;
+    position: absolute;
     top: 2vw;
     left: 1.2vw;
 
@@ -151,95 +156,111 @@ input[type="submit"]
 
 .playsongbtn1 {
     background: rgb(44, 22, 44);
-    width: 20.5vw;
-    height: 9vw;
-    font-size: clamp(1vw, 2.2vw, 2.2vw);
-    font-weight: 400;
-    max-width: 100%;
+    width: 22vw;
+    height: 8.7vh;
+    font-size: clamp(16px, 2.3vw, 24px);
+    font-weight: 500;
+    min-height: 69px;
+    min-width: 100px;
+    max-width: 241px;
+    max-height: 500px;
     display: flex;
     border-radius: 11px;
     justify-content: space-between;
     align-items: center;
     text-align: center;
     box-sizing: border-box;
-    margin: 10px auto;
-    position: relative;
-    right: -6.2vw;
-    top: 1vw;
+    margin: 12px auto;
+    position: absolute;
+    top: 24.2vh;
+    left: 34.5vw;
+    
 }
 
 .playsongbtn2 {
     background: rgb(44, 22, 44);
-    width: 20.5vw;
-    height: 9vw;
-    font-size: clamp(1vw, 2.2vw, 2.2vw);
-    font-weight: 400;
-    max-width: 100%;
+    width: 22vw;
+    height: 8.7vh;
+    font-size: clamp(16px, 2.3vw, 24px);
+    font-weight: 500;
+    min-height: 69px;
+    min-width: 100px;
+    max-width: 241px;
+    max-height: 500px;
     display: flex;
     border-radius: 11px;
     justify-content: space-between;
     align-items: center;
     text-align: center;
     box-sizing: border-box;
-    margin: 10px auto;
-    position: relative;
-    right: -10.100000000000001vw;
-    top: 1.2vw;
+    margin: 12px auto;
+    position: absolute;
+    right: 6.4vw;
+    top: 12.8vh;
 }
 
 .playsongbtn3 {
     background: rgb(44, 22, 44);
-    width: 20.5vw;
-    height: 9vw;
-    font-size: clamp(1vw, 2.2vw, 2.2vw);
-    font-weight: 400;
-    max-width: 100%;
+    width: 22vw;
+    height: 8.7vh;
+    font-size: clamp(16px, 2.3vw, 24px);
+    font-weight: 500;
+    min-height: 69px;
+    min-width: 100px;
+    max-width: 241px;
+    max-height: 500px;
     display: flex;
     border-radius: 11px;
     justify-content: space-between;
     align-items: center;
     text-align: center;
     box-sizing: border-box;
-    margin: 10px auto;
-    position: relative;
-    right: -6.1vw;
-    top: 1vw;
+    margin: 12px auto;
+    position: absolute;
+    right: 34vw;
+    top: 24.4vh;
 }
 
 .playsongbtn4 {
     background: rgb(44, 22, 44);
-    width: 20.5vw;
-    height: 9vw;
-    font-size: clamp(1vw, 2.2vw, 2.2vw);
-    font-weight: 400;
-    max-width: 100%;
+    width: 22vw;
+    height: 8.7vh;
+    font-size: clamp(16px, 2.3vw, 24px);
+    font-weight: 500;
+    min-height: 69px;
+    min-width: 100px;
+    max-width: 241px;
+    max-height: 500px;
     display: flex;
     border-radius: 11px;
     justify-content: space-between;
     align-items: center;
     text-align: center;
     box-sizing: border-box;
-    margin: 10px auto;
-    position: relative;
+    margin: 12px auto;
+    position: absolute;
     top: 1.4vw;
     left: 6.3vw;
 }
 
 .playsongbtn5 {
     background: rgb(44, 22, 44);
-    width: 20.5vw;
-    height: 9vw;
-    font-size: clamp(1vw, 2.2vw, 2.2vw);
-    font-weight: 400;
-    max-width: 100%;
+    width: 22vw;
+    height: 8.7vh;
+    font-size: clamp(16px, 2.3vw, 24px);
+    font-weight: 500;
+    min-height: 69px;
+    min-width: 100px;
+    max-width: 241px;
+    max-height: 500px;
     display: flex;
     border-radius: 11px;
     justify-content: space-between;
     align-items: center;
     text-align: center;
     box-sizing: border-box;
-    margin: 10px auto;
-    position: relative;
+    margin: 12px auto;
+    position: absolute;
     top: 1vw;
     left: 10.4vw;
 
@@ -247,19 +268,22 @@ input[type="submit"]
     
     .playsongbtn6 {
         background: rgb(44, 22, 44);
-        width: 20.5vw;
-        height: 9vw;
-        font-size: clamp(1vw, 2.2vw, 2.2vw);
-        font-weight: 400;
-        max-width: 100%;
+        width: 22vw;
+        height: 8.7vh;
+        font-size: clamp(16px, 2.3vw, 24px);
+        font-weight: 500;
+        min-height: 69px;
+        min-width: 100px;
+        max-width: 241px;
+        max-height: 500px;
         display: flex;
         border-radius: 11px;
         justify-content: space-between;
         align-items: center;
         text-align: center;
         box-sizing: border-box;
-        margin: 10px auto;
-        position: relative;
+        margin: 12px auto;
+        position: absolute;
         top: 1.2vw;
         left: 6vw;
     }
