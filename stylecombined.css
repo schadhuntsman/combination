@@ -29,7 +29,7 @@ body {
     width: 80%;
     /* height: 133vh; */
     background: rgb(88, 66, 88);
-    min-height: 108vw; 
+    min-height: 120vw;
 }
 
 .genre-hero {
@@ -48,6 +48,7 @@ body {
 }
 
 .genre-container {
+    right: -8.9vw;
     font-size: clamp(31.5px, 8vw, 65px);
     /* font-size: 33px; */
     font-weight: 490;
@@ -55,10 +56,13 @@ body {
     line-height: 120%;
     text-align: center;
     margin: 2.8rem 0 1.68rem 0;
-    /* justify-content: center; */
-    /* display: flex; */
+    justify-content: space-evenly;
+    display: flex;
     position: relative;
-    top: 3vw;
+    /* top: 2vw; */
+    /* font-size: 4.2rem; */
+    line-height: 110%;
+    margin: 2.8rem 0 1.68rem 0;
 }
 
 .band-info-container {
@@ -99,25 +103,22 @@ body {
 }
 
 .band-info-container-bottom {
-    background: rgb(45, 31, 57);
-    height: 39vh;
-    max-width: 65%;
-    flex-direction: row;
-    position: absolute;
-    /* padding-top: 1.3vw; */
-    top: 76vh;
-    flex-grow: 1;
-    font-size: 4vw;
-    line-height: 110%;
+    background: rgb(88, 66, 88);
+    font-size: clamp(31.5px, 8vw, 65px);
+   
+    font-weight: 490;
+    max-width: 100%;
+    line-height: 120%;
+    text-align: center;
+    margin: 2.8rem 0 1.68rem 0;
+    /* justify-content: center; */
+    /* display: flex; */
+    position: relative;
+    top: 3vw;
     margin: 1.52vw 0 0.912vw 0;
     text-align: center;
     display: flex;
-    width: 65%;
-    left: 17.7vw;
     justify-content: space-evenly;
-    max-height: 100%;
-    min-width: 65%;
-    min-height: 507px;
 }
 
 
@@ -140,14 +141,14 @@ body {
     
 
 .ticket-btn1 {
-    width: 25vw; 
-    height: 2vh;
+    width: 25vw;
+    height: 10vh;
     font-size: clamp(14px, 2.3vw, 24px);
     font-weight: 500;
-    min-height: 86px;
+    min-height: 92px;
     min-width: 100px;
     max-width: 240px;
-    max-height: 120px;
+    max-height: 114px;
     display: inline-block;
     border-radius: 11px;
     justify-content: space-between;
@@ -158,6 +159,7 @@ body {
     position: absolute;
     top: 27.2vh;
     left: 35.2vw;
+    min-width: 100px;
   
 }
 
@@ -186,12 +188,12 @@ body {
 
 .playsongbtn1 {
     background: rgb(44, 22, 44);
-    width: 25vw;
+    width: 26vw;
     height: 10vh;
     font-size: clamp(14px, 2.3vw, 24px);
     font-weight: 500;
-    /* min-height: 86px; */
-    min-width: 100px;
+    min-height: 85px;
+    min-width: 117px;
     max-width: 240px;
     /* max-height: 91px; */
     display: inline-block;
@@ -202,13 +204,16 @@ body {
     box-sizing: border-box;
     margin: 12px auto;
     position: absolute;
-    top: 14vh;
-    left: 10.5vw;
+    top: 12vh;
+    left: 3.5vw;
+    float: left;
 }
     
 
 
 .playsongbtn2 {
+    right: 33vw;
+    top: 23vh;
     background: rgb(44, 22, 44);
     width: 25vw;
     height: 10vh;
@@ -224,18 +229,20 @@ body {
     box-sizing: border-box;
     margin: 12px auto;
     position: absolute;
-    top: 13.8vh;
-    left: 35.2vw;
+    top: 12.2vh;
+    left: 34.9vw;
+    min-height: 85px;
+    min-width: 117px;
 }
 
 .playsongbtn3 {
     background: rgb(44, 22, 44);
-    width: 25vw;
+    width: 26vw;
     height: 10vh;
     font-size: clamp(14px, 2.3vw, 24px);
     font-weight: 500;
-    /* min-height: 86px; */
-    min-width: 100px;
+    min-height: 85px;
+    min-width: 117px;
     max-width: 240px;
     /* max-height: 91px; */
     display: inline-block;
@@ -246,8 +253,11 @@ body {
     box-sizing: border-box;
     margin: 12px auto;
     position: absolute;
-    right: 30vw;
-    top: 27.1vh
+    right: 32.5vw;
+    top: 23vh;
+    min-height: 85px;
+    min-width: 117px;
+    float: left;
 }
 
 .playsongbtn4 {
