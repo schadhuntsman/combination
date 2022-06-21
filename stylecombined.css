@@ -27,21 +27,38 @@ body {
 
 .container {
     width: 80%;
-    height: 100vh;
+    /* height: 133vh; */
     background: rgb(88, 66, 88);
-    min-height: 100%; 
+    min-height: 108vw; 
 }
 
 .genre-hero {
-    background: rgb(88, 66, 88); 
+    background: rgb(88, 66, 88);
+    font-size: clamp(31.5px, 8vw, 65px);
+    /* font-size: 33px; */
+    font-weight: 490;
+    max-width: 100%;
+    line-height: 120%;
+    text-align: center;
+    margin: 2.8rem 0 1.68rem 0;
+    /* justify-content: center; */
+    /* display: flex; */
+    position: relative;
+    top: 3vw; 
 }
 
 .genre-container {
-    font-size: 7vw;
+    font-size: clamp(31.5px, 8vw, 65px);
+    /* font-size: 33px; */
+    font-weight: 490;
     max-width: 100%;
-    line-height: 110%;
+    line-height: 120%;
     text-align: center;
     margin: 2.8rem 0 1.68rem 0;
+    /* justify-content: center; */
+    /* display: flex; */
+    position: relative;
+    top: 3vw;
 }
 
 .band-info-container {
@@ -51,48 +68,59 @@ body {
 
 
 .header-h4 {
-    font-size: clamp(23px, 4vw, 30px);
+    position: relative;
+    top: 0.5vh;
+    font-size: clamp(23px, 4vw, 45px);
 }
 
 .header-h4-2 {
-    font-size: clamp(23px, 4vw, 30px);
+    position: relative;
+    top: 0.5vh;
+    font-size: clamp(23px, 4vw, 45px);
 }
 
 .button-header {
-    max-height: 350px;
-    min-width: 85%;
     background: rgb(45, 31, 57);
-    height: 54vh;
-    min-height: 100%;
-    max-width: 100%;
+    height: 52vh;
+    min-height: 46vh;
+    max-width: 80%;
     flex-direction: row;
-    position: relative;
-    width: 100%;
+    position: absolute;
+    width: 65%;
     /* padding-top: 1.3vw; */
-    top: 1vh;
+    top: 25vh;
     /* flex-grow: 1; */
     font-size: 4vw;
     line-height: 110%;
     margin: 1.52vw 0 0.912vw 0;
     text-align: center;
     display: flex;
+    justify-content: space-evenly;
 }
 
 .band-info-container-bottom {
     background: rgb(45, 31, 57);
-    height: 54vh;
-    max-width: 100%;
+    height: 39vh;
+    max-width: 65%;
     flex-direction: row;
-    position: relative;
+    position: absolute;
     /* padding-top: 1.3vw; */
-    top: 1vh;
+    top: 76vh;
     flex-grow: 1;
     font-size: 4vw;
     line-height: 110%;
     margin: 1.52vw 0 0.912vw 0;
     text-align: center;
     display: flex;
-} 
+    width: 65%;
+    left: 17.7vw;
+    justify-content: space-evenly;
+    max-height: 100%;
+    min-width: 65%;
+    min-height: 507px;
+}
+
+
 
 /* .band-info-container2 {
     background: rgb(45, 31, 57);
@@ -116,7 +144,7 @@ body {
     height: 2vh;
     font-size: clamp(14px, 2.3vw, 24px);
     font-weight: 500;
-    min-height: 75px;
+    min-height: 86px;
     min-width: 100px;
     max-width: 240px;
     max-height: 120px;
@@ -128,80 +156,12 @@ body {
     box-sizing: border-box;
     margin: 12px auto;
     position: absolute;
-    top: 30.200000000000003vh;
-    left: 34.5vw;
+    top: 27.2vh;
+    left: 35.2vw;
   
 }
 
 .ticket-btn2 {
-    width: 25vw; 
-    height: 2vh;
-    font-size: clamp(14px, 2.3vw, 24px);
-    font-weight: 500;
-    min-height: 75px;
-    min-width: 100px;
-    max-width: 240px;
-    max-height: 120px;
-    display: inline-block;
-    border-radius: 11px;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-    box-sizing: border-box;
-    margin: 12px auto;
-    position: relative;
-    top: 2vw;
-    left: 1.2vw;
-
-}
-
-.playsongbtn1 {
-    background: rgb(44, 22, 44);
-    height: 2vh;
-    font-size: clamp(14px, 2.3vw, 24px);
-    font-weight: 500;
-    min-height: 95px;
-    min-width: 111px;
-    max-width: 240px;
-    max-height: 120px;
-    display: inline-block;
-    border-radius: 11px;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-    box-sizing: border-box;
-    margin: 12px auto;
-    position: absolute;
-    top: 24.2vh;
-    left: 34.5vw;
-    
-}
-
-.playsongbtn2 {
-    background: rgb(44, 22, 44);
- height: 2vh;
- font-size: clamp(14px, 2.3vw, 24px);
- font-weight: 500;
- min-height: 95px;
- min-width: 111px;
- max-width: 240px;
- /* max-height: 120px; */
- display: inline-block;
- border-radius: 11px;
- justify-content: space-between;
- align-items: center;
- text-align: center;
- box-sizing: border-box;
- margin: 12px auto;
- position: absolute;
-    right: 6.4vw;
-    top: 12.8vh;
-}
-
-.playsongbtn3 {
-    background: rgb(44, 22, 44);
-    right: 50vw;
-    top: 38.9vh;
     width: 25vw;
     height: 10vh;
     font-size: clamp(14px, 2.3vw, 24px);
@@ -218,18 +178,88 @@ body {
     box-sizing: border-box;
     margin: 12px auto;
     position: absolute;
+    top: 26vw;
+    left: 35.5vw;
+}
+
+
+
+.playsongbtn1 {
+    background: rgb(44, 22, 44);
+    width: 25vw;
+    height: 10vh;
+    font-size: clamp(14px, 2.3vw, 24px);
+    font-weight: 500;
+    /* min-height: 86px; */
+    min-width: 100px;
+    max-width: 240px;
+    /* max-height: 91px; */
+    display: inline-block;
+    border-radius: 11px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 12px auto;
+    position: absolute;
+    top: 14vh;
+    left: 10.5vw;
+}
+    
+
+
+.playsongbtn2 {
+    background: rgb(44, 22, 44);
+    width: 25vw;
+    height: 10vh;
+    font-size: clamp(14px, 2.3vw, 24px);
+    font-weight: 500;
+    min-height: 86px;
+    min-width: 100px;
+    display: inline-block;
+    border-radius: 11px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 12px auto;
+    position: absolute;
+    top: 13.8vh;
+    left: 35.2vw;
+}
+
+.playsongbtn3 {
+    background: rgb(44, 22, 44);
+    width: 25vw;
+    height: 10vh;
+    font-size: clamp(14px, 2.3vw, 24px);
+    font-weight: 500;
+    /* min-height: 86px; */
+    min-width: 100px;
+    max-width: 240px;
+    /* max-height: 91px; */
+    display: inline-block;
+    border-radius: 11px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 12px auto;
+    position: absolute;
+    right: 30vw;
+    top: 27.1vh
 }
 
 .playsongbtn4 {
     background: rgb(44, 22, 44);
-    width: 22vw;
-    height: 8.7vh;
-    font-size: clamp(16px, 2.3vw, 24px);
+    width: 25vw;
+    height: 10vh;
+    font-size: clamp(14px, 2.3vw, 24px);
     font-weight: 500;
-    min-height: 69px;
-    min-width: 100px;
-    max-width: 241px;
-    max-height: 500px;
+    min-height: 79px;
+    min-width: 110px;
+    max-width: 240px;
+    max-height: 120px;
     display: inline-block;
     border-radius: 11px;
     justify-content: space-between;
@@ -238,20 +268,20 @@ body {
     box-sizing: border-box;
     margin: 12px auto;
     position: absolute;
-    top: 1.4vw;
-    left: 6.3vw;
+    top: 13.399999999999999vw;
+    left: 10.3vw;
 }
 
 .playsongbtn5 {
     background: rgb(44, 22, 44);
-    width: 22vw;
-    height: 8.7vh;
-    font-size: clamp(16px, 2.3vw, 24px);
+    width: 25vw;
+    height: 10vh;
+    font-size: clamp(14px, 2.3vw, 24px);
     font-weight: 500;
-    min-height: 69px;
-    min-width: 100px;
-    max-width: 241px;
-    max-height: 500px;
+    min-height: 79px;
+    min-width: 110px;
+    max-width: 240px;
+    max-height: 120px;
     display: inline-block;
     border-radius: 11px;
     justify-content: space-between;
@@ -260,21 +290,21 @@ body {
     box-sizing: border-box;
     margin: 12px auto;
     position: absolute;
-    top: 1vw;
-    left: 10.4vw;
+    top: 13.4vw;
+    left: 35.4vw;
 
     }
     
     .playsongbtn6 {
         background: rgb(44, 22, 44);
-        width: 22vw;
-        height: 8.7vh;
-        font-size: clamp(16px, 2.3vw, 24px);
+        width: 25vw;
+        height: 10vh;
+        font-size: clamp(14px, 2.3vw, 24px);
         font-weight: 500;
-        min-height: 69px;
-        min-width: 100px;
-        max-width: 241px;
-        max-height: 500px;
+        min-height: 79px;
+        min-width: 110px;
+        max-width: 240px;
+        max-height: 120px;
         display: inline-block;
         border-radius: 11px;
         justify-content: space-between;
@@ -283,8 +313,8 @@ body {
         box-sizing: border-box;
         margin: 12px auto;
         position: absolute;
-        top: 1.2vw;
-        left: 6vw;
+        top: 26vw;
+        left: 10.3vw;
     }
 
 
